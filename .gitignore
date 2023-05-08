@@ -1,0 +1,8 @@
+/in.json
+!/in.example.json
+/out.json
+!/out.example.json
+/check.json
+!/check.example.json
+/input/*
+/output/*

@@ -1,0 +1,15 @@
+{
+  "source": {
+    "url": "https://example.com",
+    "insecure": false,
+    "username": "user",
+    "password": "pass",
+    "repository": "my-raw-repo",
+    "capture-regex": "/path/to/group/.*/my-(.*)-release.tgz",
+    "debug": false
+  },
+  "params": {
+    "file": "input/my-1.2.3-release.tgz",
+    "group": "/path/to/group/1.2.3"
+  }
+}

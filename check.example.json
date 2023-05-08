@@ -1,0 +1,16 @@
+{
+  "source": {
+    "url": "https://example.com",
+    "insecure": false,
+    "username": "user",
+    "password": "pass",
+    "repository": "my-raw-repo",
+    "capture-regex": "/path/to/group/.*/my-(.*)-release.tgz",
+    "debug": false
+  },
+  "version": {
+    "version": "1.2.3",
+    "path": "path/to/group/1.2.3/my-1.2.3-release.tgz",
+    "md5sum": "d7b41297cf3f7f125bd6e896ac75cbad"
+  }
+}
